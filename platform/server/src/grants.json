@@ -1,0 +1,722 @@
+[
+  {
+    "role": "IdeaSprouterUser",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "ChaosSculptorOwner",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "ideaViewerGuest",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "DigitalCustodianAgent",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaCollaboratorDev",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "AIGatekeeperAgent",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaSprouterUser",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "ChaosSculptorOwner",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "ideaViewerGuest",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "DigitalCustodianAgent",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaCollaboratorDev",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "AIGatekeeperAgent",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaSprouterUser",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "ChaosSculptorOwner",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "ideaViewerGuest",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "DigitalCustodianAgent",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaCollaboratorDev",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "AIGatekeeperAgent",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaSprouterUser",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "ChaosSculptorOwner",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "ideaViewerGuest",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "DigitalCustodianAgent",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaCollaboratorDev",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "AIGatekeeperAgent",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaSprouterUser",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "ChaosSculptorOwner",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "ideaViewerGuest",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "DigitalCustodianAgent",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaCollaboratorDev",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "AIGatekeeperAgent",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaSprouterUser",
+    "resource": "AiGatekeeper",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "ChaosSculptorOwner",
+    "resource": "AiGatekeeper",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "ideaViewerGuest",
+    "resource": "AiGatekeeper",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "DigitalCustodianAgent",
+    "resource": "AiGatekeeper",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaCollaboratorDev",
+    "resource": "AiGatekeeper",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "AIGatekeeperAgent",
+    "resource": "AiGatekeeper",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaSprouterUser",
+    "resource": "AiGatekeeper",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "ChaosSculptorOwner",
+    "resource": "AiGatekeeper",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "ideaViewerGuest",
+    "resource": "AiGatekeeper",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "DigitalCustodianAgent",
+    "resource": "AiGatekeeper",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaCollaboratorDev",
+    "resource": "AiGatekeeper",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "AIGatekeeperAgent",
+    "resource": "AiGatekeeper",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaSprouterUser",
+    "resource": "AiGatekeeper",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "ChaosSculptorOwner",
+    "resource": "AiGatekeeper",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "ideaViewerGuest",
+    "resource": "AiGatekeeper",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "DigitalCustodianAgent",
+    "resource": "AiGatekeeper",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaCollaboratorDev",
+    "resource": "AiGatekeeper",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "AIGatekeeperAgent",
+    "resource": "AiGatekeeper",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaSprouterUser",
+    "resource": "AiGatekeeper",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "ChaosSculptorOwner",
+    "resource": "AiGatekeeper",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "ideaViewerGuest",
+    "resource": "AiGatekeeper",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "DigitalCustodianAgent",
+    "resource": "AiGatekeeper",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaCollaboratorDev",
+    "resource": "AiGatekeeper",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "AIGatekeeperAgent",
+    "resource": "AiGatekeeper",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaSprouterUser",
+    "resource": "AiGatekeeper",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "ChaosSculptorOwner",
+    "resource": "AiGatekeeper",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "ideaViewerGuest",
+    "resource": "AiGatekeeper",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "DigitalCustodianAgent",
+    "resource": "AiGatekeeper",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaCollaboratorDev",
+    "resource": "AiGatekeeper",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "AIGatekeeperAgent",
+    "resource": "AiGatekeeper",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaSprouterUser",
+    "resource": "DigitalCustodianAgent",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "ChaosSculptorOwner",
+    "resource": "DigitalCustodianAgent",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "ideaViewerGuest",
+    "resource": "DigitalCustodianAgent",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "DigitalCustodianAgent",
+    "resource": "DigitalCustodianAgent",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaCollaboratorDev",
+    "resource": "DigitalCustodianAgent",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "AIGatekeeperAgent",
+    "resource": "DigitalCustodianAgent",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaSprouterUser",
+    "resource": "DigitalCustodianAgent",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "ChaosSculptorOwner",
+    "resource": "DigitalCustodianAgent",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "ideaViewerGuest",
+    "resource": "DigitalCustodianAgent",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "DigitalCustodianAgent",
+    "resource": "DigitalCustodianAgent",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaCollaboratorDev",
+    "resource": "DigitalCustodianAgent",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "AIGatekeeperAgent",
+    "resource": "DigitalCustodianAgent",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaSprouterUser",
+    "resource": "DigitalCustodianAgent",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "ChaosSculptorOwner",
+    "resource": "DigitalCustodianAgent",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "ideaViewerGuest",
+    "resource": "DigitalCustodianAgent",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "DigitalCustodianAgent",
+    "resource": "DigitalCustodianAgent",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaCollaboratorDev",
+    "resource": "DigitalCustodianAgent",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "AIGatekeeperAgent",
+    "resource": "DigitalCustodianAgent",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaSprouterUser",
+    "resource": "DigitalCustodianAgent",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "ChaosSculptorOwner",
+    "resource": "DigitalCustodianAgent",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "ideaViewerGuest",
+    "resource": "DigitalCustodianAgent",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "DigitalCustodianAgent",
+    "resource": "DigitalCustodianAgent",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaCollaboratorDev",
+    "resource": "DigitalCustodianAgent",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "AIGatekeeperAgent",
+    "resource": "DigitalCustodianAgent",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaSprouterUser",
+    "resource": "DigitalCustodianAgent",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "ChaosSculptorOwner",
+    "resource": "DigitalCustodianAgent",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "ideaViewerGuest",
+    "resource": "DigitalCustodianAgent",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "DigitalCustodianAgent",
+    "resource": "DigitalCustodianAgent",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaCollaboratorDev",
+    "resource": "DigitalCustodianAgent",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "AIGatekeeperAgent",
+    "resource": "DigitalCustodianAgent",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaSprouterUser",
+    "resource": "IdeaCollaboratorDev",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "ChaosSculptorOwner",
+    "resource": "IdeaCollaboratorDev",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "ideaViewerGuest",
+    "resource": "IdeaCollaboratorDev",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "DigitalCustodianAgent",
+    "resource": "IdeaCollaboratorDev",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaCollaboratorDev",
+    "resource": "IdeaCollaboratorDev",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "AIGatekeeperAgent",
+    "resource": "IdeaCollaboratorDev",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaSprouterUser",
+    "resource": "IdeaCollaboratorDev",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "ChaosSculptorOwner",
+    "resource": "IdeaCollaboratorDev",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "ideaViewerGuest",
+    "resource": "IdeaCollaboratorDev",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "DigitalCustodianAgent",
+    "resource": "IdeaCollaboratorDev",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaCollaboratorDev",
+    "resource": "IdeaCollaboratorDev",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "AIGatekeeperAgent",
+    "resource": "IdeaCollaboratorDev",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaSprouterUser",
+    "resource": "IdeaCollaboratorDev",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "ChaosSculptorOwner",
+    "resource": "IdeaCollaboratorDev",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "ideaViewerGuest",
+    "resource": "IdeaCollaboratorDev",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "DigitalCustodianAgent",
+    "resource": "IdeaCollaboratorDev",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaCollaboratorDev",
+    "resource": "IdeaCollaboratorDev",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "AIGatekeeperAgent",
+    "resource": "IdeaCollaboratorDev",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaSprouterUser",
+    "resource": "IdeaCollaboratorDev",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "ChaosSculptorOwner",
+    "resource": "IdeaCollaboratorDev",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "ideaViewerGuest",
+    "resource": "IdeaCollaboratorDev",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "DigitalCustodianAgent",
+    "resource": "IdeaCollaboratorDev",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaCollaboratorDev",
+    "resource": "IdeaCollaboratorDev",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "AIGatekeeperAgent",
+    "resource": "IdeaCollaboratorDev",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaSprouterUser",
+    "resource": "IdeaCollaboratorDev",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "ChaosSculptorOwner",
+    "resource": "IdeaCollaboratorDev",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "ideaViewerGuest",
+    "resource": "IdeaCollaboratorDev",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "DigitalCustodianAgent",
+    "resource": "IdeaCollaboratorDev",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "IdeaCollaboratorDev",
+    "resource": "IdeaCollaboratorDev",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "AIGatekeeperAgent",
+    "resource": "IdeaCollaboratorDev",
+    "action": "read:any",
+    "attributes": "*"
+  }
+]
