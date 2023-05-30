@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Create, SimpleForm, CreateProps } from "react-admin";
+import { Create, SimpleForm, CreateProps, TextInput } from "react-admin";
 
 export const IdeaViewerGuestCreate = (
   props: CreateProps
@@ -7,7 +7,9 @@ export const IdeaViewerGuestCreate = (
   return (
     <Create {...props}>
       <SimpleForm>
-        <div />
+        <TextInput label="Company" source="company" />
+        <TextInput label="Email" source="email" type="email" />
+        <TextInput label="Location" source="Location" />
       </SimpleForm>
     </Create>
   );

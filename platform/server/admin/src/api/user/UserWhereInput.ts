@@ -1,9 +1,18 @@
-import { StringNullableFilter } from "../../util/StringNullableFilter";
 import { StringFilter } from "../../util/StringFilter";
+import { DateTimeFilter } from "../../util/DateTimeFilter";
+import { AiGatekeeperListRelationFilter } from "../aiGatekeeper/AiGatekeeperListRelationFilter";
+import { IdeaCollaboratorDevListRelationFilter } from "../ideaCollaboratorDev/IdeaCollaboratorDevListRelationFilter";
 
 export type UserWhereInput = {
-  firstName?: StringNullableFilter;
+  company?: StringFilter;
+  createdAt?: DateTimeFilter;
+  email?: StringFilter;
+  firstName?: StringFilter;
   id?: StringFilter;
-  lastName?: StringNullableFilter;
+  lastName?: StringFilter;
+  location?: StringFilter;
+  ownership?: AiGatekeeperListRelationFilter;
+  teamOwner?: IdeaCollaboratorDevListRelationFilter;
+  updatedAt?: DateTimeFilter;
   username?: StringFilter;
 };

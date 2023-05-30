@@ -1,5 +1,5 @@
 import * as React from "react";
-import { List, Datagrid, ListProps, DateField, TextField } from "react-admin";
+import { List, Datagrid, ListProps, TextField, DateField } from "react-admin";
 import Pagination from "../Components/Pagination";
 
 export const IdeaViewerGuestList = (props: ListProps): React.ReactElement => {
@@ -7,13 +7,16 @@ export const IdeaViewerGuestList = (props: ListProps): React.ReactElement => {
     <List
       {...props}
       bulkActionButtons={false}
-      title={"ideaViewerGuests"}
+      title={"Idea Viewers"}
       perPage={50}
       pagination={<Pagination />}
     >
       <Datagrid rowClick="show">
+        <TextField label="Company" source="company" />
         <DateField source="createdAt" label="Created At" />
+        <TextField label="Email" source="email" />
         <TextField label="ID" source="id" />
+        <TextField label="Location" source="Location" />
         <DateField source="updatedAt" label="Updated At" />
       </Datagrid>
     </List>

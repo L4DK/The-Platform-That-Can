@@ -1,0 +1,93 @@
+datasource postgres {
+  provider = "postgresql"
+  url      = env("DB_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  company   String
+  createdAt DateTime              @default(now())
+  email     String                @unique
+  firstName String
+  id        String                @id @default(cuid())
+  lastName  String
+  location  String
+  ownership AiGatekeeper[]
+  password  String
+  roles     Json
+  teamOwner IdeaCollaboratorDev[]
+  updatedAt DateTime              @updatedAt
+  username  String                @unique
+}
+
+model AiGatekeeper {
+  AIStatus       EnumAiGatekeeperAiStatus
+  createdAt      DateTime                 @default(now())
+  createdBy      User                     @relation(fields: [createdById], references: [id])
+  createdById    String
+  id             String                   @id @default(cuid())
+  myAgents       DigitalCustodianAgent[]
+  roles          String
+  TasksCompleted Int
+  updatedAt      DateTime                 @updatedAt
+}
+
+model DigitalCustodianAgent {
+  agentStatus      EnumDigitalCustodianAgentAgentStatus
+  createdAt        DateTime                             @default(now())
+  id               String                               @id @default(cuid())
+  lastActiveTime   DateTime
+  lastError        String?
+  MyAiGatekeeper   AiGatekeeper?                        @relation(fields: [MyAiGatekeeperId], references: [id])
+  MyAiGatekeeperId String?
+  tasksCompleted   Int
+  updatedAt        DateTime                             @updatedAt
+}
+
+model IdeaViewerGuest {
+  company   String
+  createdAt DateTime @default(now())
+  email     String?
+  id        String   @id @default(cuid())
+  Location  String
+  updatedAt DateTime @updatedAt
+}
+
+model IdeaCollaboratorDev {
+  createdAt DateTime @default(now())
+  email     String   @unique
+  id        String   @id @default(cuid())
+  inATeam   User?    @relation(fields: [inATeamId], references: [id])
+  inATeamId String?
+  location  String
+  updatedAt DateTime @updatedAt
+}
+
+enum EnumAiGatekeeperAiStatus {
+  IDLE
+  THINKING
+  BREAK
+  CLEANING
+  TRAINING
+  FETCHING_DATA
+  DEBUGGING
+  ACTIVE
+  PROCESSING_IN_CLOUD
+  MANAGING_LARGE_DATA
+}
+
+enum EnumDigitalCustodianAgentAgentStatus {
+  IDLE
+  WORKING
+  LEARNING
+  BREAK
+  FETCHING_DATA
+  PROCESSING_DATA
+  DEBUGGING
+  OBSERVING
+  TRAINING
+  HELPING
+}
