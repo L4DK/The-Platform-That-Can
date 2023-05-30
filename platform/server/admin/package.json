@@ -1,5 +1,5 @@
 {
-  "name": "@the-platform/admin",
+  "name": "@l4-the-platform/admin",
   "private": true,
   "dependencies": {
     "@apollo/client": "3.6.9",
