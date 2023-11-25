@@ -1,0 +1,36 @@
+name: continuous integration - the-platform
+
+concurrency:
+  group: the-platform
+  cancel-in-progress: true
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["*"]
+    paths: ["./platform/serv"]
+
+jobs:
+  continuous-integration:
+    name: continuous integration
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+
+      - name: setup node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+
+      - name: install dependencies
+        run: npm install
+        working-directory: ./platform/serv
+
+      - name: build
+        run: npm run build
+        working-directory: ./platform/serv
+
+      - name: test
+        run: npm test
+        working-directory: ./platform/serv
